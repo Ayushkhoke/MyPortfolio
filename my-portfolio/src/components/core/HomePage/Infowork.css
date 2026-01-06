@@ -1,0 +1,23 @@
+/* Header: fade + slide down */
+.info-header {
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: all 0.8s ease;
+}
+
+.info-header.info-header-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Cards: scale + fade */
+.info-card {
+  opacity: 0;
+  transform: scale(0.95) translateY(20px);
+  transition: all 0.45s ease;
+}
+
+.info-card.info-card-visible {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}

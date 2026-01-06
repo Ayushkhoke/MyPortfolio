@@ -1,0 +1,81 @@
+/* 
+.slide-left {
+  animation: slide-left 1s ease-out forwards;
+}
+
+.slide-right {
+  animation: slide-right 1s ease-out forwards;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+ */
+/* 
+
+ .sliding-card {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.7s ease;
+  will-change: transform, opacity;
+}
+
+
+.from-left {
+  transform: translateX(-80px);
+}
+
+
+.from-right {
+  transform: translateX(80px);
+}
+
+
+.show {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+} */
+
+
+.sliding-card {
+  opacity: 0;
+  transform: translateY(30px);
+  will-change: transform, opacity;
+}
+
+/* Entry directions */
+.from-left {
+  transform: translateX(-100px);
+}
+
+.from-right {
+  transform: translateX(100px);
+}
+
+/* When visible */
+.show {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}
+
+

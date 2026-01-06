@@ -1,0 +1,49 @@
+/* .skill-card {
+  opacity: 0;
+  transform: translateY(12px);
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease,
+    background-color 0.25s ease;
+}
+
+.skill-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.skill-card:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+} */
+
+
+
+/* Section animation */
+/* ABOUT → slide from left */
+.about-section {
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: all 0.9s ease;
+}
+
+.about-section.about-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* SKILLS → scale + fade up */
+.skill-card {
+  opacity: 0;
+  transform: translateY(20px) scale(0.95);
+  transition: all 0.45s ease;
+}
+
+.skill-card.skill-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+
+
+
