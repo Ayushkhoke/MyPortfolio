@@ -95,7 +95,7 @@ export default function Navbar() {
           to="/"
           className="text-lg font-semibold tracking-wide hover:text-white/90 transition"
         >
-          Ayush<span className="text-purple-500">.</span>
+          AK<span className="text-purple-500">.</span>
         </NavLink>
 
         {/* LINKS */}

@@ -211,10 +211,11 @@ import InfoWork from "../components/core/HomePage/InfoWork";
 import SlidingBar from "../components/core/HomePage/SlidingBar";
 import Footer from "../components/Footer";
 import About from "./Aboutus";
-import Contact from "./Contactus";
+import Contact from "./ContactUs";
 import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import Projects from "./Projects";
+
 
 export default function Home() {
   const navigate = useNavigate();
