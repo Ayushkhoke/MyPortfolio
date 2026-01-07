@@ -1,9 +1,16 @@
 import React from "react";
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { toast } from "react-hot-toast";
+import { useNavigate } from "react-router-dom";
 
 export default function Footer() {
   const year = new Date().getFullYear();
 
+  const navigate = useNavigate();
+    function contacthandler() {
+    toast.success("Contact Me at:");
+    navigate("/contactus");
+  }
   return (
     <footer className="w-full bg-black text-white border-t border-white/10">
       <div className="max-w-7xl mx-auto px-6 py-14">
@@ -23,26 +30,14 @@ export default function Footer() {
           </div>
 
           {/* NAV */}
-   <nav
-  className="
-    bg-white text-black/90 rounded-md
-    flex flex-wrap items-center gap-4
-    mx-auto lg:mx-0
-    w-fit px-2
-    justify-center lg:justify-start
-   
-  "
->
-  <a
-    href="/contactus"
-    className="
-      px-6 py-3 rounded-md border border-white
-      text-sm 
-    "
-  >
-    Contact
-  </a>
-</nav>
+ <div className="flex flex-col sm:flex-row items-center gap-6 bg-white text-black rounded-md  relative lg:left-[20%] sm-mx-auto">
+  <button
+                onClick={contacthandler}
+                className="px-6 py-3 rounded-md border border-white/20 text-sm hover:border-white/40 transition"
+              >
+                Contact
+              </button>
+ </div>
 
 
           {/* SOCIAL MEDIA LOGOS */}
