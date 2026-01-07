@@ -45,7 +45,7 @@ export default function Footer() {
 
             {/* GitHub */}
             <a
-              href="https://github.com/"
+              href="https://github.com/Spartan253"
               target="_blank"
               rel="noreferrer"
               className="w-11 h-11 flex items-center justify-center rounded-full
@@ -58,7 +58,7 @@ export default function Footer() {
 
             {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/"
+              href="https://linkedin.com/in/ayush-khoke-23811b25b/"
               target="_blank"
               rel="noreferrer"
               className="w-11 h-11 flex items-center justify-center rounded-full
@@ -71,7 +71,7 @@ export default function Footer() {
 
             {/* Instagram */}
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/ayushkhoke1"
               target="_blank"
               rel="noreferrer"
               className="w-11 h-11 flex items-center justify-center rounded-full
