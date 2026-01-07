@@ -91,7 +91,7 @@
 // }
 
 import React from 'react';
-import './language.css';
+import './Language.css';
 import { TypeAnimation } from 'react-type-animation';
 
 export default function LanguageCutting() {
