@@ -160,7 +160,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { SlidingData } from "../../../data/Slidingdata";
-import "./SlidingBar.css";
+import "./Slidingbar.css";
 
 export default function SlidingBar() {
   const [visibleCards, setVisibleCards] = useState({});
