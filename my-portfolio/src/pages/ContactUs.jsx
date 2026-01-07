@@ -399,20 +399,7 @@ export default function ContactUs() {
           className="input-style"
         />
 
-        {/* Country */}
-        <select
-          name="countrycode"
-          value={formdata.countrycode}
-          onChange={changehandler}
-          className="input-style"
-        >
-          <option value="">Select country</option>
-          {Contactdata.map((el, idx) => (
-            <option key={idx} value={el.code}>
-              {el.country} ({el.code})
-            </option>
-          ))}
-        </select>
+       
 
         {/* Phone */}
         <div className="rounded-xl border border-white/10 bg-black/40 px-3 py-2">
