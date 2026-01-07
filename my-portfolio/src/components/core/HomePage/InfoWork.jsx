@@ -219,7 +219,7 @@
 // }
 
 import React, { useEffect, useRef, useState } from "react";
-import './InfoWork.css';
+import './Infowork.css';
 import { InfoWorkData } from "../../../data/InfoWorkData";
 
 export default function InfoWork() {
