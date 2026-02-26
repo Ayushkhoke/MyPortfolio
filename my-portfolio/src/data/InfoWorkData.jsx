@@ -3,7 +3,7 @@ import MovieRecommendor from '../assets/InfoWorkImage/MovieRecommendor.png'
 import Communication from '../assets/InfoWorkImage/Communication.png'
 import Zkp2 from '../assets/InfoWorkImage/Zkp2.png'
 import Robotics  from '../assets/InfoWorkImage/Robotics.png'
-import startup  from '../assets/InfoWorkImage/startup.png'
+import hotel  from '../assets/InfoWorkImage/hotel.jpeg'
 
 
 
@@ -14,8 +14,8 @@ export const InfoWorkData=[
     image:Studynotion,
     description:"StudyNotion is a full-stack EdTech platform built with the MERN stack that allows instructors to create and sell courses online, featuring secure payment integration, role-based access, and a scalable backend designed to mirror real-world SaaS products rather than demo projects.",
      tag: "MERN",
-  live: "https://studynotion3-one.vercel.app/",
-  github: "https://github.com/yourname/studynotion"
+  live: "https://studynotion3-eight.vercel.app",
+  github: "https://github.com/Ayushkhoke/Studynotion3.git"
 },
 {
     title:"Zero Knowledge Proof",
@@ -29,8 +29,11 @@ export const InfoWorkData=[
 },
 {
     title:"StartUp",
-    image:startup,
+    image:hotel,
     description:"Combines AI, DevOps, advanced technology, and blockchain to create innovative, efficient, and scalable solutions for modern challenges",
+       tag: "MERN",
+  live: "https://hotel-management-system-silk-sigma.vercel.app",
+  github: "https://github.com/Ayushkhoke/Hotel-Management-System.git"
 },
 
 
