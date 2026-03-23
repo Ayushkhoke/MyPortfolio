@@ -28,6 +28,16 @@ export const Curateddata=[
 
   {
     id:3,
+    image:"Hotel Management System",
+      title:"Next DevOps",
+     description:"A platform built for developers and IT teams to automate, monitor, and scale applications with ease. Designed for speed, collaboration, and reliability, it bridges the gap between development and operations.",
+    paragraph1:"Leveraged CI/CD pipelines and container orchestration for rapid deployment.",
+    paragraph2:"Simplified infrastructure management with intuitive dashboards.",
+    paragraph3:"Enhanced scalability with performance-driven optimization and monitoring."
+},
+
+  {
+    id:3,
     image:MovieRecommendor2,
       title:"Next Blockchain",
      description:"A platform designed for innovators, investors, and developers to build, trade, and engage with decentralized applications. Crafted with transparency, security, and scalability at its core, it redefines trust in the digital world.",

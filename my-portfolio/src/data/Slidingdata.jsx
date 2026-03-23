@@ -2,16 +2,16 @@ export const SlidingData=[
     {
         
         title:"Web Development",
-        description:"A web developer is a creative problem-solver who builds and maintains websites and web applications.<br/> They write clean, efficient code using languages like HTML, CSS, and JavaScript, and often work with frameworks like React, Angular, or Vue. Beyond coding, they ensure websites are responsive, user-friendly, and optimized for performance"
+        description:"I build custom web applications tailored to your business — booking systems, patient portals, dashboards, SaaS platforms, and more. Clean code, fast delivery, built to scale."
     },
        {
         
         title:"Machine Learning",
-        description:"Machine Learning (ML) is a branch of artificial intelligence that enables computers to learn from data and make predictions or decisions without being explicitly programmed. ML engineers build models using algorithms like regression, classification, clustering, and deep learning to analyze patterns, recognize images, process language, and recommend solutions."
+        description:"I integrate AI and machine learning into your product — recommendation engines, predictive analytics, automated decision systems, and intelligent chatbots that reduce manual work."
        },
           {
     
         title:"Devops",
-        description:"DevOps is a collaborative approach that bridges the gap between software development and IT operations. DevOps engineers focus on automating workflows, improving deployment pipelines, and ensuring continuous integration and continuous delivery (CI/CD). They work with tools like Docker, Kubernetes, Jenkins, and Git to streamline software delivery, improve scalability"
+        description:"I set up your full deployment pipeline — CI/CD, Docker, cloud hosting, automated testing, and monitoring — so your app stays live, fast, and secure without manual intervention."
     }
 ]

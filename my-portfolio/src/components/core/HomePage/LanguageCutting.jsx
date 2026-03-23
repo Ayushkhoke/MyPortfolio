@@ -100,11 +100,11 @@ export default function LanguageCutting() {
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Lucifer Portfolio</title>
+  <title>Full-Stack Developer</title>
 </head>
 <body>
   <header>
-    <h1>Hello, I am Lucifer</h1>
+    <h1>Custom software & AI systems — built to save you time and money.</h1>
   </header>
   <main>
     <p>Welcome to my portfolio website.</p>

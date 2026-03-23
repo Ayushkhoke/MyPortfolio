@@ -239,13 +239,12 @@ export default function Home() {
             </p>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight text-white">
-              I design and engineer production-ready web applications.
+ Full-Stack Developer. AI Automation. Built for your business.
             </h1>
 
             <p className="text-slate-400 max-w-xl mx-auto lg:mx-0 leading-relaxed text-sm sm:text-base">
-              I focus on building scalable systems with clean architecture,
-              thoughtful user experience, and long-term maintainability.
-            </p>
+Full-Stack Engineer delivering production-ready software for startups and businesses worldwide. Clean code, on-time delivery, long-term support.
+</p>
 
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
               <a
